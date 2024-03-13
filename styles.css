@@ -1,6 +1,9 @@
 
 body {
     background-color: rgb(26, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #keys {
@@ -15,9 +18,11 @@ body {
     background-color: white;
     max-width: 500px;
     border-radius: 30px;
-    overflow: hidden;
-
+    margin: 10px;
 }
+
+
+
 
 button {
     width: 100px;
@@ -46,14 +51,14 @@ button {
 }
 
 #display {
-    width: 100%;
+    max-width: 440px;
     padding: 30px;
-    margin-top: auto;
     text-align: left;
     border: none;
     background-color: rgb(47, 47, 239);
     color: whitesmoke;
     font-size: 69px;
+    overflow: hidden;
 }
 
 .or {
@@ -92,4 +97,10 @@ button:active {
 }
 #c:hover {
     background-color: greenyellow;
+}
+
+#big {
+    background-color: navy;
+    width: 600px;
+    height: 800px;
 }
