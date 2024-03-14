@@ -39,19 +39,19 @@ button {
 
 #magic {
     color: whitesmoke;
-    background-color: deepskyblue;
+    background-color: navy;
     padding: 10px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
     margin-top: auto;
     font-size: 40px;
     text-align: center;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 0;
+
 }
 
 #display {
-    max-width: 440px;
+    max-width: 420px;
     padding: 30px;
     text-align: left;
     border: none;
@@ -101,6 +101,15 @@ button:active {
 
 #big {
     background-color: navy;
-    width: 600px;
-    height: 800px;
+    width: 500px;
+    height: 820px;
+    border-radius: 30px; 
+}
+
+#sqrt {
+    background-color: purple;
+}
+
+#sq {
+    background-color: red;
 }

@@ -16,3 +16,11 @@ function calculate(){
         display.value = "Error";
     }
 }
+
+function squareRoot(){
+    display.value = Math.sqrt(display.value);
+}
+
+function square(){
+    display.value *= display.value;
+}
